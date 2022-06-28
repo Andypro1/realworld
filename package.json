@@ -6,7 +6,7 @@
 	"type": "module",
 	"scripts": {
 		"dev": "svelte-kit dev",
-		"debug": "node --inspect .\\node_modules\\@sveltejs\\kit\\svelte-kit.js dev",
+		"debug": "node --inspect ./node_modules/@sveltejs/kit/svelte-kit.js dev",
 		"build": "svelte-kit build --verbose",
 		"preview": "svelte-kit preview",
 		"lint": "prettier --check --plugin-search-dir=. .",
