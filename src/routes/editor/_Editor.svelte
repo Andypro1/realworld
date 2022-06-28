@@ -24,7 +24,8 @@
 
 	const onresponse = async (res) => {
 		if (res.ok) {
-			goto(res.headers.get('location'));
+			const { slug } = await res.json();
+			goto(`/article/${slug}`);
 		}
 	};
 
